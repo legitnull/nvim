@@ -5,3 +5,4 @@
 vim.g.autoformat = true
 --- Disable UI animations
 vim.g.snacks_animate = false
+vim.opt.clipboard = "unnamedplus"
