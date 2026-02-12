@@ -9,3 +9,7 @@ vim.keymap.set("n", "<Right>", ":bnext<CR>", { noremap = true })
 
 vim.keymap.set("n", "<leader>w", ":w<CR>", { noremap = true })
 
+-- Comment keymaps
+vim.keymap.set("n", "<leader>c<leader>", "gcc", { remap = true, desc = "Comment line" })
+vim.keymap.set("v", "<leader>c", "gc", { remap = true, desc = "Comment selection" })
+
